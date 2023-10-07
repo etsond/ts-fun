@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.options {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.correct {
+    color: #009900;
+}
+
+.incorrect {
+    color: #FF0000;
+}
